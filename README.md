@@ -1,10 +1,10 @@
 # Cálculo Numérico P1
 
-Projeto desenvolvido para a disciplina de Cálculo Numérico.
+Projeto desenvolvido para a disciplina de Cálculo Numérico, 2026.1
 
 ## Objetivo
 
-Implementar métodos numéricos utilizando apenas lógica de programação e estruturas nativas da linguagem, sem o uso de bibliotecas prontas como NumPy e SciPy.
+Implementar métodos numéricos utilizando apenas lógica de programação e estruturas nativas da linguagem.
 
 ## Métodos Numéricos
 
@@ -44,9 +44,9 @@ calculo-numericoP1
 
 ## Integrantes
 
+* Gabriel Santos Freitas
 * Kely Souza da Silva
 * Milene Mota Alves
-* Gabriel Santos Freitas
 
 ## Status do Projeto
 
