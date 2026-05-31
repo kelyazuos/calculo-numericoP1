@@ -51,3 +51,7 @@ calculo-numericoP1
 ## Status do Projeto
 
 ✅ Interpolação de Lagrange implementada.
+
+✅ Interpolação de Gregory-Newton implementada.
+
+✅ Spline Linear
