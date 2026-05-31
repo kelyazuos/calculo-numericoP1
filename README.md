@@ -50,7 +50,17 @@ calculo-numericoP1
 
 ## Status do Projeto
 
-✅ Interpolação de Lagrange implementada.
-✅ Interpolação de Gregory-Newton implementada.
-✅ Spline Linear
-✅ Spline Cúbica Natural
+### Métodos concluídos
+
+* ✅ Interpolação de Lagrange
+* ✅ Interpolação de Gregory-Newton
+* ✅ Spline Linear
+* ✅ Spline Cúbica Natural
+* ✅ Método dos Mínimos Quadrados (MMQ)
+* ✅ Regra dos Trapézios
+
+### Métodos pendentes
+
+* ⏳ Regra 1/3 de Simpson
+* ⏳ Regra 3/8 de Simpson (Newton-Cotes)
+* ⏳ Quadratura de Gauss
