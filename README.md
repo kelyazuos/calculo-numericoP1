@@ -2,9 +2,16 @@
 
 Projeto desenvolvido para a disciplina de Cálculo Numérico, 2026.1
 
+## Integrantes
+
+* Gabriel Santos Freitas
+* Kely Souza da Silva
+* Milene Mota Alves
+
 ## Objetivo
 
-Implementar métodos numéricos utilizando apenas lógica de programação e estruturas nativas da linguagem.
+Desenvolver e implementar métodos numéricos estudados na disciplina de Cálculo Numérico utilizando Python, aplicando técnicas de interpolação, ajuste de curvas e integração numérica para resolução de problemas práticos.
+
 
 ## Métodos Numéricos
 
@@ -28,25 +35,38 @@ Implementar métodos numéricos utilizando apenas lógica de programação e est
 
 ## Estrutura do Projeto
 
-```text
-calculo-numericoP1
-│
+#### calculo-numericoP1
+
 ├── interpolacao
+
+│   ├── lagrange.py
+
+│   ├── gregory_newton.py
+
+│   ├── spline_linear.py
+
+│   └── spline_cubica.py
+
 ├── integracao
+
+│   └── trapezios.py
+
 ├── mmq
+
+│   └── mmq.py
+
 ├── main.py
+
 └── README.md
-```
+
 
 ## Tecnologias Utilizadas
 
 * Python 3
+* Visual Studio Code
+* Git
+* GitHub
 
-## Integrantes
-
-* Gabriel Santos Freitas
-* Kely Souza da Silva
-* Milene Mota Alves
 
 ## Status do Projeto
 
