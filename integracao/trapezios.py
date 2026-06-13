@@ -10,7 +10,7 @@ def regra_trapezios(x, y):
     return soma
 
 
-# Dados do exercício
+
 x = [0.0, 0.5, 1.0, 1.5, 2.0]
 y = [0, 40, 65, 80, 90]
 

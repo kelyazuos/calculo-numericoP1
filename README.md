@@ -78,6 +78,7 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 * ✅ Spline Cúbica Natural
 * ✅ Método dos Mínimos Quadrados (MMQ)
 * ✅ Regra dos Trapézios
+* ✅ Regra 1/3 de Simpson
 
 ### Métodos pendentes
 
