@@ -79,9 +79,8 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 * ✅ Método dos Mínimos Quadrados (MMQ)
 * ✅ Regra dos Trapézios
 * ✅ Regra 1/3 de Simpson
+* ✅ Regra 3/8 de Simpson (Newton-Cotes)
 
 ### Métodos pendentes
 
-* ⏳ Regra 1/3 de Simpson
-* ⏳ Regra 3/8 de Simpson (Newton-Cotes)
 * ⏳ Quadratura de Gauss
