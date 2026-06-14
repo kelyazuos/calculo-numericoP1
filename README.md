@@ -1,6 +1,6 @@
 # Cálculo Numérico P1
 
-Projeto desenvolvido para a disciplina de Cálculo Numérico, 2026.1
+Projeto desenvolvido para a disciplina de Cálculo Numérico (2026.1) da Universidade Federal do Maranhão (UFMA).
 
 ## Integrantes
 
@@ -55,6 +55,9 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 
 │   └── mmq.py
 
+├── .github/
+│   └── workflows/
+
 ├── main.py
 
 └── README.md
@@ -81,3 +84,7 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 * ✅ Regra 1/3 de Simpson
 * ✅ Regra 3/8 de Simpson (Newton-Cotes)
 * ✅ Quadratura de Gauss (FQG)
+
+## ⚙ Execução automática
+
+Este projeto utiliza GitHub Actions para executar automaticamente todos os algoritmos a cada atualização enviada para o repositório.
