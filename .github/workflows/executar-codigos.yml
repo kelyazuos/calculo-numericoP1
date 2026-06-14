@@ -1,0 +1,46 @@
+name: Executar Projeto de Cálculo Numérico
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  executar-python:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Executar Lagrange
+        run: python interpolacao/lagrange.py
+
+      - name: Executar Gregory-Newton
+        run: python interpolacao/gregory_newton.py
+
+      - name: Executar Spline Linear
+        run: python interpolacao/spline_linear.py
+
+      - name: Executar Spline Cúbica
+        run: python interpolacao/spline_cubica.py
+
+      - name: Executar MMQ
+        run: python mmq/mmq.py
+
+      - name: Executar Trapézios
+        run: python integracao/trapezios.py
+
+      - name: Executar Simpson 1/3
+        run: python integracao/simpson.py
+
+      - name: Executar Newton-Cotes
+        run: python integracao/newton_cotes.py
+
+      - name: Executar Quadratura de Gauss
+        run: python integracao/quadratura_gauss.py
