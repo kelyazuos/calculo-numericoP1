@@ -42,7 +42,7 @@ jobs:
       - name: Executar Newton-Cotes
         run: python integracao/newton_cotes.py
 
-       - name: Executar Quadratura de Gauss
+      - name: Executar Quadratura de Gauss
         run: python integracao/quadratura_gauss.py
 
       - name: Instalar bibliotecas da Unidade 3
