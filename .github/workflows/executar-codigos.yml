@@ -44,3 +44,17 @@ jobs:
 
       - name: Executar Quadratura de Gauss
         run: python integracao/quadratura_gauss.py
+
+              - name: Instalar bibliotecas da Unidade 3
+        run: pip install numpy matplotlib
+
+      - name: Executar Unidade 3
+        run: |
+          cd Unidade3
+          python main.py
+
+      - name: Salvar gráfico da Unidade 3
+        uses: actions/upload-artifact@v4
+        with:
+          name: grafico-sir
+          path: Unidade3/resultados/grafico_sir.png
