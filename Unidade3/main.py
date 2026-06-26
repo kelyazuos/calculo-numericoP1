@@ -38,7 +38,7 @@ plt.legend(loc='best', fontsize=10)
 
 # 4. Guardar o gráfico e exibir
 plt.tight_layout()
-plt.savefig('grafico.png', dpi=300) # Guarda em alta resolução
+plt.savefig("resultados/grafico_sir.png", dpi=300)
 plt.show()
 
-print("Simulação concluída! O arquivo 'grafico.png' foi gerado com sucesso.")
+print("Simulação concluída! O arquivo 'grafico_sir.png' foi salvo na pasta 'resultados'.")

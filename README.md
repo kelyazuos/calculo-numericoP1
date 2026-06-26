@@ -85,6 +85,15 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 * ✅ Regra 3/8 de Simpson (Newton-Cotes)
 * ✅ Quadratura de Gauss (FQG)
 
+
+## Resultado da Simulação Unidade3
+
+AO gráfico abaixo apresenta a comparação entre os métodos de Euler e Runge-Kutta de 4ª ordem (RK4) aplicados ao modelo epidemiológico SIR.
+
+Observa-se que o método RK4 fornece uma aproximação mais precisa da evolução das populações suscetível, infectada e recuperada.
+
+![Gráfico da Simulação](Unidade3/resultados/grafico_sir.png)
+
 ## ⚙ Execução automática
 
 Este projeto utiliza GitHub Actions para executar automaticamente todos os algoritmos a cada atualização enviada para o repositório.
