@@ -70,7 +70,6 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 * Git
 * GitHub
 
-
 ## Status do Projeto
 
 ### Métodos concluídos
@@ -88,7 +87,7 @@ Desenvolver e implementar métodos numéricos estudados na disciplina de Cálcul
 
 ## Resultado da Simulação Unidade3
 
-AO gráfico abaixo apresenta a comparação entre os métodos de Euler e Runge-Kutta de 4ª ordem (RK4) aplicados ao modelo epidemiológico SIR.
+O gráfico abaixo apresenta a comparação entre os métodos de Euler e Runge-Kutta de 4ª ordem (RK4) aplicados ao modelo epidemiológico SIR.
 
 Observa-se que o método RK4 fornece uma aproximação mais precisa da evolução das populações suscetível, infectada e recuperada.
 
