@@ -1,0 +1,50 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Arquivos de configuração do VS Code
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache de testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cache do Matplotlib
+.matplotlib/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos compilados
+*.so
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Cache do GitHub Actions
+.cache/
+
+# Arquivos de distribuição
+build/
+dist/
+*.egg-info/
+
+# Arquivos do Jupyter
+.ipynb_checkpoints/
